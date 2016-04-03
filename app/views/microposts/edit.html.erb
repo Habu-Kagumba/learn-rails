@@ -1,3 +1,4 @@
+<% provide(:title, truncate(@micropost.content, :length => 15)) %>
 <h1>Editing Micropost</h1>
 
 <%= render 'form' %>

@@ -1,2 +1,14 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:title, "Home") %>
+<section>
+  <h1>Learning Rails application.</h1>
+
+  <p>Starting to learn ROR, Heroku deployment and git versioning.</p>
+  <p>
+    <button><%= link_to 'Help', static_pages_help_url %></button>
+    <button><%= link_to 'About', static_pages_about_url %></button>
+  </p>
+  <p>
+    <%= link_to 'Users', users_path %> |
+     <%= link_to 'Microposts', microposts_path %>
+  </p>
+</section>
