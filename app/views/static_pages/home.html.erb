@@ -1,15 +1,10 @@
 <% provide(:title, "Home") %>
 <section>
-  <h1>Learning Rails application.</h1>
+    <div class="center jumbotron text-center">
+        <p class="display-3">Learning Rails application.</p>
 
-  <p>Starting to learn ROR, Heroku deployment and git versioning.</p>
-  <p>
-    <button><%= link_to 'Help', static_pages_help_url %></button>
-    <button><%= link_to 'About', static_pages_about_url %></button>
-    <button><%= link_to 'Contact', static_pages_contact_url %></button>
-  </p>
-  <p>
-    <%= link_to 'Users', users_path %> |
-     <%= link_to 'Microposts', microposts_path %>
-  </p>
+        <p class="lead">Starting to learn ROR, Heroku deployment and git versioning.</p>
+        <%= link_to "Sign up now!", new_user_path, class: "btn btn-lg btn-primary-outline" %>
+    </div>
+    <%= link_to image_tag("hs-logo.png", alt: "HS"), "http://hs.kagumba.com" %>
 </section>
