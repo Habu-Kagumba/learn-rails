@@ -199,6 +199,7 @@ DEPENDENCIES
   guard-minitest
   jbuilder (~> 2.0)
   mini_backtrace
+  minitest
   minitest-reporters
   pg
   pry-rails
