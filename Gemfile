@@ -6,7 +6,6 @@ gem 'rails', '4.2.6'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'sprockets-rails'
 gem 'turbolinks'
-gem 'webpack-rails'
 
 group :development do
   gem 'pry-rails'

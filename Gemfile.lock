@@ -185,8 +185,6 @@ GEM
       binding_of_caller (>= 0.7.2)
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
-    webpack-rails (0.9.6)
-      rails (>= 3.2.0)
 
 PLATFORMS
   ruby
@@ -212,7 +210,6 @@ DEPENDENCIES
   sqlite3
   turbolinks
   web-console (~> 2.0)
-  webpack-rails
 
 BUNDLED WITH
    1.11.2

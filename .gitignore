@@ -36,6 +36,3 @@ bower.json
 
 # Ignore application configuration
 /config/application.yml
-# Added by webpack-rails
-/node_modules
-/public/webpack
