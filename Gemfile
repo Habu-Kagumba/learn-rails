@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'bootstrap', '~> 4.0.0.alpha3'
+gem 'bootstrap', '~> 4.3.1'
 gem 'jbuilder', '~> 2.0'
 gem 'rails', '4.2.6'
 gem 'sdoc', '~> 0.4.0', group: :doc
